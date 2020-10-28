@@ -2,6 +2,15 @@ body{
   margin: 0;
 }
 
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  size: 10px;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 8px #000000;
+}
+
 .bgimg { 
   top: 0;
   left: 0;
@@ -13,15 +22,6 @@ body{
   overflow: hidden;
   opacity: 0.8;
   z-index: -1;
-}
-
-* {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  size: 10px;
-  line-height: 1.5em;
-  font-weight: 300;
-  color: rgb(255, 255, 255);
-  text-shadow: 5px 5px 8px #000000;
 }
 
 .nav-bar {
@@ -42,7 +42,6 @@ body{
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  
   }
 
   h1 {display: flex;
@@ -54,6 +53,7 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+    line-height: 2.5em;
   }
 
   #home {
@@ -62,6 +62,7 @@ body{
     align-items: center;
     padding-top: 100px;
     padding-bottom: 50px;
+    
   }
 
   #about{
@@ -87,6 +88,32 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .p1Div,
+  .p2Div,
+  .p3Div {
+    height: 15rem;
+    width: 20rem;
+    background-color: rgba(97, 155, 152, 0.534);
+    border-radius: 50px;
+    box-shadow: 0px 14px 50px rgba(14, 17, 196, 0.514);
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .p1Div:hover{
+    box-shadow: 0px 14px 40px rgb(160, 20, 20);
+  }
+  
+  .p2Div:hover{
+    box-shadow: 0px 14px 40px rgb(228, 141, 27);
+  }
+
+  .p3Div:hover{
+    box-shadow: 0px 14px 40px rgb(211, 214, 23);
   }
 
   .projects-list h3{
@@ -140,13 +167,44 @@ body{
 .contact-body{
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 140px;
+  margin-bottom: 100px;
 }
 
-.contact-body input, textarea{
+/* .form {
+display: flex;
+/* flex-direction: column; */
+
+
+.contact-body input{
+  width: 200px;
   color: black;
   text-shadow: none;
+  text-align: center;
+}
+
+.contact-body textarea{
+  width: 200px;
+  color: black;
+  text-shadow: none;
+  text-align: center;
+}
+
+.contact-body button {
+/* display: flex; */
+/* background-color: white; */
+border-radius: 5px;
+width: 60px;
+height: 30px;
+background-color: rgb(241, 168, 71);
+position: relative;
+left: 35%;
 }
   /* * {
     border: 1px dotted rgb(241, 217, 1);
   } */
+
+@media (min-width: 375px){
+  #home{
+    width: 375px;
+  }
+}
