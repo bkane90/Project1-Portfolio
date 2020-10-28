@@ -42,6 +42,7 @@ body{
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  
   }
 
   h1 {display: flex;
@@ -59,7 +60,8 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
 
   #about{
@@ -67,16 +69,13 @@ body{
     padding-bottom: 50px;
   }
 
-  /* #about div img{
-    position: absolute;
-    width: 400px;
-    right: 0;
-  } */
 
   .about-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 50px;
   }
 
   #projects{
@@ -104,20 +103,6 @@ body{
     align-items: center;
   }
 
-  #contact article {
-    display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  }
-
-  #contact article div {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-  } 
-
   .contact-header{
     flex-direction: column;
     margin: 0;
@@ -132,23 +117,20 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0;
+    padding: 50px 0;
     list-style: none;
   }
 
   .fa-github {
-    color: black;
+    color: rgb(71, 71, 71);
   }
   .fa-linkedin {
-    color: darkblue;
+    color: rgb(37, 100, 235);
   }
 
   #contact img {  
-    /* display: flex; */
     width: 100px;
     border-radius: 150px;
-  /* justify-content:left;
-  align-items: left; */
   }
 
 .contact-photo{
@@ -158,11 +140,12 @@ body{
 .contact-body{
   display: flex;
   justify-content: space-evenly;
- 
+  margin-bottom: 140px;
 }
 
 .contact-body input, textarea{
   color: black;
+  text-shadow: none;
 }
   /* * {
     border: 1px dotted rgb(241, 217, 1);
