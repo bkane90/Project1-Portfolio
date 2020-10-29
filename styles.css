@@ -203,8 +203,8 @@ left: 35%;
     border: 1px dotted rgb(241, 217, 1);
   } */
 
-@media (min-width: 375px){
+/* @media (min-width: 375px){
   #home{
     width: 375px;
   }
-}
+} */
