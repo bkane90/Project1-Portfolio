@@ -217,6 +217,10 @@ left: 35%;
   /* .bgimg { 
   } */
 
+  #home h1{
+  font-size: 1.8rem;
+  }
+
   .projects-list {
     flex-direction: column;
   }
@@ -236,7 +240,6 @@ left: 35%;
   }
 
   .about-content{
-    padding: 0 0.5rem auto 1rem;
     flex-direction: column;
   }
   
@@ -244,11 +247,35 @@ left: 35%;
     line-height: 1.5em;
     text-align: justify;
     font-size: 0.5rem;
-    margin-left: -0.5vw;
+    margin-left: -1.5vw;
+    width: 80vw;
   }
 
   .about-content img {
+    margin-top: 1.5rem;
     margin-left: -26vw;
+  }
+
+  .fab{
+   padding-left: 14vw;
+  }
+
+  .contact-body {
+   display: flex;
+   flex-direction: column;
+  }
+
+  .contact-photo{
+    padding: 0 3rem;
+    width: 275px;
+  }
+
+  .form-fields{
+    padding: 0 5.3rem;
+  }
+
+  .form-fields button{
+    left: 20%;
   }
 }
 
