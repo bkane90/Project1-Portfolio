@@ -66,8 +66,7 @@ body{
   }
 
   #about{
-    padding-top: 200px;
-    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
 
@@ -75,13 +74,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 50px;
   }
 
   #projects{
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    
   }
 
   .projects-list{
@@ -121,10 +120,10 @@ body{
   }
 
   #contact{
-    margin-top: 150px;
+    margin-top: 50px;
   }
 
-  h2 {
+  h2, h3 {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -146,6 +145,10 @@ body{
     align-items: center;
     padding: 50px 0;
     list-style: none;
+  }
+
+  .fab:hover {
+    
   }
 
   .fa-github {
