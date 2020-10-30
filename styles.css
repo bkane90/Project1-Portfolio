@@ -4,7 +4,7 @@ html {
 
 body{
   margin: 0;
-  background:url("./images/Colorful Chip with code.jpg");
+  background:url("./images/Blue\ Binary\ code.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,7 +18,7 @@ body{
   line-height: 1.5em;
   font-weight: 300;
   color: rgb(255, 255, 255);
-  text-shadow: 5px 5px 8px #000000;
+  text-shadow: 5px 5px 8px #c4c2c2c5;
 }
 
 .nav-bar {
@@ -27,7 +27,8 @@ body{
   padding: 14px 0px;
   text-decoration: none;
   font-size: 1.25em;
-  background-color:rgba(12, 77, 116, 0.75);
+  background-color:rgba(2, 6, 59, 0.75);
+  text-shadow: none;
 }
 
 .nav-bar-ul {
@@ -43,16 +44,16 @@ body{
     font-size: 2em;
     text-align: center;
     line-height: 2em;
-    text-shadow: 5px 5px 8px #110edb;
+    text-shadow: 5px 10px 8px #dd2b49d7;
     text-align: center;
     justify-content: center;
     align-items: center;
     line-height: 2.5em;
   }
 
-  /* h2 {
-    text-shadow: 5px 5px 8px #d10a0a;
-  } */
+  h2 {
+    text-shadow: 5px 5px 5px #dd2b49d7;
+  }
 
   #home {
     text-align: center;
@@ -107,15 +108,15 @@ body{
   }
 
   .p1Div:hover{
-    box-shadow: 0px 14px 40px rgb(160, 20, 20);
+    box-shadow: 0px 14px 40px rgb(25, 160, 20);
   }
   
   .p2Div:hover{
-    box-shadow: 0px 14px 40px rgb(228, 141, 27);
+    box-shadow: 0px 14px 40px  rgb(211, 214, 23);
   }
 
   .p3Div:hover{
-    box-shadow: 0px 14px 40px rgb(211, 214, 23);
+    box-shadow: 0px 14px 40px rgb(228, 141, 27);
   }
 
   .projects-list h3{
@@ -205,7 +206,7 @@ left: 35%;
 /* html {scroll-behavior: smooth;} */
  * {
     width: 100vw;
-    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   #home h1{
