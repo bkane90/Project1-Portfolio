@@ -13,21 +13,18 @@ body{
 }
 
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Kaushan Script', cursive;
   size: 10px;
   line-height: 1.5em;
   font-weight: 300;
   color: rgb(255, 255, 255);
   text-shadow: 5px 5px 8px #000000;
 }
-  /* * {
-    border: 1px dotted rgb(241, 217, 1);
-  } */
 
 .nav-bar {
   width: 100%;
   position: fixed;
-  padding: 14px 0px 14px;
+  padding: 14px 0px;
   text-decoration: none;
   font-size: 1.25em;
   background-color:rgba(12, 77, 116, 0.75);
@@ -205,13 +202,11 @@ left: 35%;
 }
 
 @media (max-width: 375px){
+/* html {scroll-behavior: smooth;} */
  * {
     width: 100vw;
     overflow-x: hidden;
   }
-
-  /* .bgimg { 
-  } */
 
   #home h1{
   font-size: 1.8rem;
@@ -285,10 +280,3 @@ left: 35%;
     left: 20%;
   }
 }
-
-/* } *
- @media (max-width: 375px){
-  #home img{
-    
-  }
-} */
