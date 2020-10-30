@@ -210,6 +210,14 @@ left: 35%;
     /* margin: 0;
     padding: 0; */
   }
+  body { 
+    background:url("./images/Blue\ Binary\ code.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
 
   #home h1{
   font-size: 1.8rem;
