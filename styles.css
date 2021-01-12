@@ -98,13 +98,16 @@ body{
   .p1Div,
   .p2Div,
   .p3Div {
-    height: 15rem;
+    height: 20rem;
     width: 20rem;
     background-color: rgba(97, 155, 152, 0.534);
     border-radius: 50px;
     box-shadow: 0px 14px 50px rgba(14, 17, 196, 0.514);
     text-align: center;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .p1Div:hover{
