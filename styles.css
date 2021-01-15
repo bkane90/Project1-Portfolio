@@ -4,13 +4,12 @@ html {
 
 body{
   margin: 0;
-  background:url("./images/Colorful\ Chip\ with\ code.jpg");
+  background:url("./images/Colorful\ Chip\ with\ code.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   overflow-x: hidden;
-  opacity: 0.5;
 }
 
 * {
